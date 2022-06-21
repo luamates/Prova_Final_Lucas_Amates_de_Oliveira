@@ -12,5 +12,17 @@ nav {
     margin: 5px;
     text-align: center;
     padding-top: 5px;
+    transition: .3s;
 }
+
+.botao1:hover {
+    background-color: indianred;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
