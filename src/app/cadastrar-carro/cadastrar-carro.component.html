@@ -1,0 +1,15 @@
+
+<div class="listar-carros">
+    <h2>Carros</h2>
+    <ul class="carros">
+      <li *ngFor="let carro of carros">
+        <button [class.selected]="carro === selectedCarro" type="button" routerLink="/detail/{{carro.id}}">
+          <span [class.selected]="carro === selectedCarro">{{ carro.name }}</span>
+        </button>
+      </li>
+    </ul>
+  </div>
+  
+  
+  <app-carro-detail></app-carro-detail>
+   
