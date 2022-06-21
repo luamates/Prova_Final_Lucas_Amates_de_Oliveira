@@ -1,6 +1,6 @@
 export interface Carro {
-    id ?: number;
-    modelo ?: string;
-    preço ?: number;
-    ano ?: number;
-}
+    cod: number;
+    mod: string;
+    pre: string;
+    ano: number;
+  }

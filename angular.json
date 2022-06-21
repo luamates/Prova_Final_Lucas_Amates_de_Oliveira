@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "prova_final_LucasAmatesDeOliveira": {
+    "prova_final_Gustavo_Souza_Macedo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/prova-final-lucas-amates-de-oliveira",
+            "outputPath": "dist/prova-final-gustavo-souza-macedo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "prova_final_LucasAmatesDeOliveira:build:production"
+              "browserTarget": "prova_final_Gustavo_Souza_Macedo:build:production"
             },
             "development": {
-              "browserTarget": "prova_final_LucasAmatesDeOliveira:build:development"
+              "browserTarget": "prova_final_Gustavo_Souza_Macedo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "prova_final_LucasAmatesDeOliveira:build"
+            "browserTarget": "prova_final_Gustavo_Souza_Macedo:build"
           }
         },
         "test": {
@@ -102,5 +102,5 @@
       }
     }
   },
-  "defaultProject": "prova_final_LucasAmatesDeOliveira"
+  "defaultProject": "prova_final_Gustavo_Souza_Macedo"
 }

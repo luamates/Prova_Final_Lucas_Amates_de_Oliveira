@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/prova-final-lucas-amates-de-oliveira'),
+      dir: require('path').join(__dirname, './coverage/prova-final-gustavo-souza-macedo'),
       subdir: '.',
       reporters: [
         { type: 'html' },

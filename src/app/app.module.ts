@@ -3,18 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CadastrarCarroComponent } from './cadastrar-carro/cadastrar-carro.component';
-import { ListarCarrosComponent } from './listar-carros/listar-carros.component';
+import { CarrosComponent } from './carros/carros.component';
+import { CarroDetailComponent } from './carro-detail/carro-detail.component';
+import { FormsModule } from '@angular/forms';
+import { CabecalhoComponent } from './cabecalho/cabecalho.component'; // <-- NgModel lives here
 
 @NgModule({
   declarations: [
     AppComponent,
-    CadastrarCarroComponent,
-    ListarCarrosComponent
+    CarrosComponent,
+    CarroDetailComponent,
+    CabecalhoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
